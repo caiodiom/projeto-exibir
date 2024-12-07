@@ -87,7 +87,7 @@
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 60px;
+        padding: 100px;
     }
 
     .botoes .botao img {
@@ -119,6 +119,7 @@
 
     .botoes .botao img {
         max-width: 50px;
+        
     }
     footer {
        
