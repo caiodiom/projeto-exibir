@@ -1,18 +1,17 @@
-body {
-    background-color: #000000;
+body {    
+    background-image: url(../imagens/tabua.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-color: #111010ab;
     overflow: hidden;
+    
+    align-items: center;
+    align-content: center;
+    
+
 }
 
-main::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-height: 100vh;
-    width: 80vw;
-
-    background: linear-gradient(-233deg, #08080896 10%, rgba(0, 0, 0, 0) 65%) no-repeat;
-}
 
 main .personagem {
     display: none;
@@ -23,21 +22,50 @@ main .personagem.selecionado {
     display: block;
 }
 
-main .personagem .imagem {
-    width: 100%;
-    height: 1050px;
-    object-fit: cover;
+
+#imagem {
+    margin-top: 3rem;
+    border-radius: 20%;
+    width: 500px;
+    height: 500px;
+    box-shadow: 
+    0 4px 8px rgba(24, 26, 22, 0.911),
+    0 7px 12px rgba(71, 73, 77, 0.87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foto {
+    border-radius: 30px;
+
+}
+
+
+.personagens  {
+    
+    
+    width: 87%;
+    height: 100vh;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
 .conteudo {
+    
     position: absolute;
-    top: 0;
+    top: 30%;
     left: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 60vh;
     max-width: 380px;
     z-index: 1;
 }
@@ -48,33 +76,29 @@ main .personagem .imagem {
     font-family: "Roboto";
     font-weight: 400;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
 }
 
 .conteudo .descricao {
-    color: #ffffff;
+    color: #f7f2f2;
     font-family: "Roboto";
     line-height: 24px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-.conteudo .logo {
-    /*background-image: url("../imagens/one-piece-logo.png");*/
-    background-size: cover;
-    height: 100px;
-    width: 230px;
-    margin-bottom: 35px;
-}
 
 .botoes {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     width: 180px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -87,6 +111,7 @@ main .personagem .imagem {
 
 .botoes .botao img {
     border-radius: 50%;
+    
 }
 
 .botoes .botao.selecionado {
@@ -103,6 +128,7 @@ footer {
     padding: 3px;
     width: 100%;
     bottom: 0;
+    
 }
 
 footer a {
