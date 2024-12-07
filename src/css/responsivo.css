@@ -87,12 +87,13 @@
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 100px;
+        padding: 160px;
     }
 
     .botoes .botao img {
         max-width: 60px;
     }
+    
 }
 
 @media (max-width: 425px) {
@@ -123,7 +124,7 @@
     }
     footer {
        
-        font-size: 17px;
+        font-size: 16px;
         
         margin: 0;
 
