@@ -1,1 +1,14 @@
 teste de branches
+
+
+@media (max-width: 740px) {
+    #imagem {
+        margin-top: 1rem;
+
+    }
+
+    .botoes {
+        gap: 5px;
+        width: 140px;
+    }
+}
