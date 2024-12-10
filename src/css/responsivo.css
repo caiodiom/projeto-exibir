@@ -1,8 +1,8 @@
 @media (max-width: 932px) {
    
     .personagens {
-        
-        width: 80%;
+       
+        height: 100%;
     }
 
     #imagem {
@@ -16,6 +16,10 @@
     .conteudo {
         
         height: 50px;
+    }
+    .botoes {
+        background-color: rgba(0, 0, 0, 0);
+        
     }
     
     .conteudo .nome-personagem {
@@ -52,8 +56,6 @@
 }
 
 
-
-
 @media (max-width: 740px) {
    
     #imagem {
@@ -63,7 +65,12 @@
     
     .botoes {
         gap: 5px;
-        width: 140px;
+        
+    }
+
+    .descricao {
+        
+        width: 250px;
     }
     
 }
@@ -92,11 +99,10 @@
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 100px;
+        padding: 130px;
     }
 
     .conteudo {
-        
         margin-top: -80px;
         width: 150px;
         
@@ -107,6 +113,7 @@
 
     .conteudo .nome-personagem {
         font-size: 24px;
+        
        
     }
 
@@ -137,7 +144,8 @@
     }
    
     #imagem {
-    width: 350px;
+       
+        width: 350px;
     }
 
     .conteudo {
