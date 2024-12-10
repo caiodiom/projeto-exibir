@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {    
     background-image: url(../imagens/tabua.jpg);
     background-size: cover; 
@@ -8,6 +14,7 @@ body {
     
     align-items: center;
     align-content: center;
+    height: 100vh;
     
 
 }
@@ -15,16 +22,20 @@ body {
 
 main .personagem {
     display: none;
-    height: 100vh;
+   
+    
 }
 
 main .personagem.selecionado {
     display: block;
+    
+    align-items: center;
+   
 }
 
 
 #imagem {
-    margin-top: 3rem;
+    
     border-radius: 20%;
     width: 500px;
     height: 500px;
@@ -81,9 +92,10 @@ main .personagem.selecionado {
 }
 
 .conteudo .descricao {
+    font-size: 1.8em;
     color: #f7f2f2;
     font-family: "Roboto";
-    line-height: 24px;
+    line-height: px;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
