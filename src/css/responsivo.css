@@ -1,8 +1,5 @@
 @media (max-width: 932px) {
-   
-   
     #imagem {
-       
         height: 300px;
         width: 300px;
     }
@@ -10,80 +7,74 @@
     .foto {
         width: 250px;
     }
+
     .conteudo {
-        
-        height: 50px;
+        margin-top: 10%;
+        max-width: 50px;
+        max-height: 50px;
     }
+
     .botoes {
-        background-color: rgba(0, 0, 0, 0.281);
-        
+        width: 100px;
+        margin-top: -30px;
+        gap: 2px;
+        background-color: rgba(0, 0, 0, 0);
     }
-    
+
     .conteudo .nome-personagem {
         margin-left: -5rem;
         font-size: 2rem;
         width: 210px;
         margin-top: -3rem;
         height: 30px;
-
     }
-    
-
 
     .conteudo .descricao {
-      
+
         margin-left: -5rem;
         font-size: larger;
         width: 300px;
         margin-bottom: 80px;
     }
+
     .botoes .botao img {
         max-width: 55px;
-        
     }
 
-   footer {
-    
-    background-color: rgba(0, 0, 0, 0);
-   }
-
-    
-    
-
+    footer {
+        background-color: rgba(0, 0, 0, 0);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
 }
 
-
 @media (max-width: 740px) {
-
     main .personagem {
-        
         margin-bottom: 1rem;
     }
-   
-   
-    
+
     .botoes {
         gap: 5px;
-        
     }
 
     .descricao {
-        
         width: 250px;
     }
-    
+
+    footer {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 430px) {
-   
     main .personagem {
-        
         margin-bottom: 18rem;
     }
-   
 
     .personagens {
-       
         width: 100%;
     }
 
@@ -92,7 +83,6 @@
     }
 
     #imagem {
-       
         width: 350px;
         height: 400px;
     }
@@ -101,56 +91,57 @@
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
+        height: 10px;
         padding: 130px;
+        border: 1px solid rgb(255, 0, 0);
     }
 
     .conteudo {
         margin-top: 300px;
         width: 150px;
         min-height: 100px;
-       
-       
-       
     }
 
     .conteudo .nome-personagem {
         font-size: 24px;
-        
-       
     }
 
-    .botoes{
+    .botoes {
         gap: 20px;
-
     }
 
     .botoes .botao img {
         max-width: 50px;
-       
-        
     }
+
     footer {
-       
         font-size: 13px;
-        
         margin: 0;
-
-
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
     }
 }
 
 @media (max-width: 375px) {
-
-
     main .personagem {
-        
         margin-bottom: 10rem;
     }
 
-    .botoes{
+    .botoes {
         background-color: rgba(0, 0, 0, 0);
         margin-top: 70px;
         gap: 20px;
     }
-}
 
+    footer {
+        font-size: 13px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+}
